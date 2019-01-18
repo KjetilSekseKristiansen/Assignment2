@@ -24,4 +24,4 @@ Replace Chicken with Mutex and person with thread and you basically have the con
 > *Your answer here*
 
 ### List some advantages of using lock-based synchronization primitives over message passing.
-> *Your answer here*
+> *Your answer here* Test
