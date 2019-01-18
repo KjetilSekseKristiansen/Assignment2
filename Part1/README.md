@@ -12,7 +12,7 @@
 Replace Chicken with Mutex and person with thread and you basically have the concept of a mutex
 
 ### What is the difference between a mutex and a binary semaphore?
-> *Your answer here*
+> A mutex is used to protect shared resources. It is owned by the task that takes it and can't be taken by another task before the current task releases it. A binary semaphore can be signaled from any other thread
 
 ### What is a critical section?
 > *Your answer here*
