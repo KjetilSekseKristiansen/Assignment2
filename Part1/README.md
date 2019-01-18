@@ -4,7 +4,7 @@
 > Atomic operations in concurrent programming are program operations that run completely independently of any other processes. 
 
 ### What is a semaphore?
-> *Your answer here*
+> An abstract data type used to control access to a common resource by multiple processes in a concurrent system. 
 
 ### What is a mutex?
 > *Your answer here*
