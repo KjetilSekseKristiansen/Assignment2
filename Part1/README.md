@@ -1,7 +1,7 @@
 # Mutex and Channel basics
 
 ### What is an atomic operation?
-> *Your answer here*
+> Atomic operations in concurrent programming are program operations that run completely independently of any other processes. 
 
 ### What is a semaphore?
 > *Your answer here*
