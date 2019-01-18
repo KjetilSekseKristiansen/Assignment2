@@ -19,8 +19,7 @@ Replace Chicken with Mutex and person with thread and you basically have the con
 
 ### What is the difference between race conditions and data races?
  > Race condition: A race condition is a situation, in which the result of an operation depends on the interleaving of certain individual operations.
-
-Data race: A data race is a situation, in which at least two threads access a shared variable at the same time. At least on thread tries to modify the variable.
+ > Data race: A data race is a situation, in which at least two threads access a shared variable at the same time. At least on thread tries to modify the variable.
 
 ### List some advantages of using message passing over lock-based synchronization primitives.
 > Message passing is useful for exchanging smaller amounts of data, because no conflicts need be avoided. It's much easier to implement than is shared memory for intercomputer communication. Also, message passing has the advantage that application developers don't need to worry about the details of protections like shared memory.
