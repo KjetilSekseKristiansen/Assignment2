@@ -15,7 +15,7 @@ Replace Chicken with Mutex and person with thread and you basically have the con
 > A mutex is used to protect shared resources. It is owned by the task that takes it and can't be taken by another task before the current task releases it. A binary semaphore can be signaled from any other thread
 
 ### What is a critical section?
-> *Your answer here*
+> Part of program acessing shared resource
 
 ### What is the difference between race conditions and data races?
  > Race condition: A race condition is a situation, in which the result of an operation depends on the interleaving of certain individual operations.
